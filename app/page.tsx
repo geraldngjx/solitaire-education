@@ -298,7 +298,7 @@ const HeroSection = () => {
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-blue-600"></span>
               </span>
               <span className="text-sm font-semibold bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-700 bg-clip-text text-transparent">
-                Singapore&apos;s Premier JC Tuition Service
+                Singapore&#39;s Premier JC Tuition Service
               </span>
             </div>
 
@@ -531,7 +531,7 @@ const EdgeSection = () => {
     {
       icon: '🌟',
       title: 'Lifetime Mentorship',
-      description: 'Our commitment doesn&apos;t end with exams. We provide guidance throughout your academic journey and beyond, helping you navigate university applications, career choices, and personal growth.',
+      description: 'Our commitment doesn&#39;t end with exams. We provide guidance throughout your academic journey and beyond, helping you navigate university applications, career choices, and personal growth.',
     },
     {
       icon: '🤝',
@@ -541,7 +541,7 @@ const EdgeSection = () => {
     {
       icon: '🚀',
       title: 'Future-Ready Skills',
-      description: 'We don&apos;t just teach for exams. We equip you with critical thinking, problem-solving, and analytical skills that will serve you throughout your career in STEM fields.',
+      description: 'We don&#39;t just teach for exams. We equip you with critical thinking, problem-solving, and analytical skills that will serve you throughout your career in STEM fields.',
     },
   ];
 
@@ -584,7 +584,7 @@ const EdgeSection = () => {
             </span>
           </h2>
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto font-light leading-relaxed scroll-fade-up stagger-delay-200">
-            Beyond tuition—we&apos;re your lifelong partners in academic excellence and personal growth
+            Beyond tuition—we&#39;re your lifelong partners in academic excellence and personal growth
           </p>
         </div>
 
@@ -919,7 +919,7 @@ const TutorCredentialsSection = () => {
           </div>
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-black mb-8 tracking-tight scroll-fade-up stagger-delay-100">
             <span className="block text-gray-900">
-              I&apos;ve Been Through
+              I&#39;ve Been Through
             </span>
             <span className="block bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent mt-2">
               The Same Journey
@@ -1429,7 +1429,7 @@ const ContactForm = () => {
       if (result.success) {
         setFormStatus({
           type: 'success',
-          message: '🎉 Thank you! We&apos;ll contact you within 24 hours to schedule your free consultation.',
+          message: '🎉 Thank you! We will contact you within 24 hours to schedule your free consultation.',
         });
         setFormData({
           studentName: '',
@@ -1649,7 +1649,7 @@ const Footer = () => {
               SOLITAIRE EDUCATION
             </h3>
             <p className="text-gray-300 leading-relaxed mb-6">
-              Unlocking true potential through specialized tuition and lifetime mentorship for Singapore&apos;s brightest minds.
+              Unlocking true potential through specialized tuition and lifetime mentorship for Singapore&#39;s brightest minds.
             </p>
             {/* Social proof badge */}
             {/* <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
@@ -1738,7 +1738,7 @@ const Footer = () => {
               &copy; {new Date().getFullYear()} Solitaire Education. All rights reserved.
             </p>
             <p className="text-sm text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text font-medium">
-              Empowering Singapore&apos;s Next Generation of STEM Leaders
+              Empowering Singapore&#39;s Next Generation of STEM Leaders
             </p>
           </div>
         </div>
