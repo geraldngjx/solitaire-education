@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://solitaire-education.vercel.app/sitemap.xml
