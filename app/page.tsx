@@ -1411,7 +1411,7 @@ const ContactForm = () => {
           Accept: 'application/json',
         },
         body: JSON.stringify({
-          access_key: 'f4ba5f1d-ded2-441c-81c3-65adfca4b017',
+          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY,
           name: formData.studentName,
           email: formData.parentEmail,
           subject: `New Interest Form: ${formData.subjectInterest}`,
