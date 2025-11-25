@@ -22,6 +22,14 @@ export const metadata: Metadata = {
     'STEM tuition Singapore',
   ],
   authors: [{ name: 'Solitaire Education' }],
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
+    ],
+    apple: '/favicon-32x32.png',
+  },
   openGraph: {
     title: 'Solitaire Education | JC H2 Physics & Computing Tuition Singapore',
     description: 'Unlock every student\'s true potential with specialised H2 Physics and Computing tuition, lifetime mentorship, and a supportive learning community.',
@@ -29,6 +37,14 @@ export const metadata: Metadata = {
     siteName: 'Solitaire Education',
     locale: 'en_SG',
     type: 'website',
+    images: [
+      {
+        url: '/solitaire-education-logo-nobackground.png',
+        width: 768,
+        height: 325,
+        alt: 'Solitaire Education Logo',
+      },
+    ],
   },
   robots: {
     index: true,
