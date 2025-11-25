@@ -1204,19 +1204,19 @@ const SuccessStoriesSection = () => {
       name: 'Matthew',
       subject: 'JC Physics',
       achievement: 'NUS Computer Science',
-      quote: 'I got A in phy! thank you for your patient guidance bro!',
+      quote: 'I got A in Physics! thank you for your patient guidance bro!',
     },
     {
       name: 'Tracy',
       subject: 'JC Physics',
       achievement: 'NTU Environmental Earth Systems Science',
-      quote: 'I just wanted to let you know I recently received back my A-level results and I wanna thank you a lot for all the physcis tuition then. I don\'t think I would have been as prepared for Physics in my 2nd year of J1 & J2 if I had not been taught by you. Just wanna say thank you and wishing you all the best for your future endeavours!',
+      quote: 'I just wanted to let you know I recently received back my A-level results and I wanna thank you a lot for all the Physics tuition then. I don\'t think I would have been as prepared for Physics in my 2nd year of J1 & J2 if I had not been taught by you. Just wanna say thank you and wishing you all the best for your future endeavours!',
     },
     {
       name: 'Faith',
       subject: 'JC Physics and Mathematics',
       achievement: '',
-      quote: 'With that, I really thank you wholeheartedly for all your help. If not because of your hard work and patience I would have never been able to understand Physics and Math and actually start to build the interest in taht 2 subjects.',
+      quote: 'With that, I really thank you wholeheartedly for all your help. If not because of your hard work and patience I would have never been able to understand Physics and Math and actually start to build the interest in that 2 subjects.',
     },
   ];
 
