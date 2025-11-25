@@ -1204,7 +1204,7 @@ const SuccessStoriesSection = () => {
       name: 'Matthew',
       subject: 'JC Physics',
       achievement: 'NUS Computer Science',
-      quote: 'I got A in Physics! thank you for your patient guidance bro!',
+      quote: 'I got A in phy! thank you for your patient guidance bro!',
     },
     {
       name: 'Tracy',
