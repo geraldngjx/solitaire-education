@@ -11,6 +11,26 @@ A professional, SEO-optimized website for Solitaire Education - Singapore's prem
 - ✅ **SEO Optimized** - Comprehensive metadata and semantic HTML
 - ✅ **Mobile Responsive** - Perfect on all devices
 - ✅ **Performance Optimized** - Lighthouse score 95+
+- ✅ **Google Analytics 4** - Built-in analytics tracking
+
+## 📊 Google Analytics Setup
+
+1. **Create a Google Analytics 4 Property:**
+   - Go to [Google Analytics](https://analytics.google.com)
+   - Create a new GA4 property for your website
+   - Copy your Measurement ID (format: G-XXXXXXXXXX)
+
+2. **Configure Environment Variable:**
+   - Your `.env` file should already have the correct Measurement ID:
+   ```env
+   NEXT_PUBLIC_GA_MEASUREMENT_ID=G-LRTBXJV49G
+   ```
+   - If you need to change it, replace `G-LRTBXJV49G` with your new Measurement ID
+
+3. **Deploy and Verify:**
+   - Deploy your changes to Vercel
+   - Google Analytics will start tracking visitors immediately
+   - Check the Real-time reports in GA4 to verify it's working
 
 ## 📦 Getting Started
 
