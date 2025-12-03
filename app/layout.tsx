@@ -92,40 +92,59 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const structuredData = {
-    '@context': 'https://schema.org',
-    '@type': 'EducationalOrganization',
-    name: 'Solitaire Education',
-    description: 'Expert Physics tuition and Computing tuition in Singapore with lifetime mentorship. Specialised JC H2 Physics and Computing classes.',
-    url: 'https://solitaire-education.vercel.app',
-    logo: 'https://solitaire-education.vercel.app/solitaire-education-logo/web-app-manifest-512x512.png',
-    address: {
-      '@type': 'PostalAddress',
-      addressCountry: 'SG',
-      addressLocality: 'Singapore',
-    },
-    areaServed: 'Singapore',
-    serviceType: ['Physics Tuition', 'Computing Tuition', 'Physics Mentorship', 'Computing Mentorship'],
-    offers: [
-      {
-        '@type': 'Offer',
-        name: 'JC H2 Physics Tuition',
-        description: 'Expert JC H2 Physics tuition with personalized mentorship and small class sizes (max 6:1)',
-        category: 'Physics Tuition',
+  const structuredData = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'Solitaire Education',
+      url: 'https://solitaire-education.vercel.app',
+      logo: 'https://solitaire-education.vercel.app/solitaire-education-logo/web-app-manifest-512x512.png',
+      description: 'Expert Physics tuition and Computing tuition in Singapore with lifetime mentorship. Specialised JC H2 Physics and Computing classes.',
+      address: {
+        '@type': 'PostalAddress',
+        addressCountry: 'SG',
+        addressLocality: 'Singapore',
       },
-      {
-        '@type': 'Offer',
-        name: 'JC H2 Computing Tuition',
-        description: 'Specialized JC H2 Computing tuition with lifetime mentorship from NUS Computing educator',
-        category: 'Computing Tuition',
+      areaServed: 'Singapore',
+      serviceType: ['Physics Tuition', 'Computing Tuition', 'Physics Mentorship', 'Computing Mentorship'],
+      offers: [
+        {
+          '@type': 'Offer',
+          name: 'JC H2 Physics Tuition',
+          description: 'Expert JC H2 Physics tuition with personalized mentorship and small class sizes (max 6:1)',
+          category: 'Physics Tuition',
+        },
+        {
+          '@type': 'Offer',
+          name: 'JC H2 Computing Tuition',
+          description: 'Specialized JC H2 Computing tuition with lifetime mentorship from NUS Computing educator',
+          category: 'Computing Tuition',
+        },
+      ],
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: '5.0',
+        reviewCount: '50',
       },
-    ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '5.0',
-      reviewCount: '50',
     },
-  };
+    {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: 'Solitaire Education',
+      url: 'https://solitaire-education.vercel.app',
+      description: 'Expert Physics tuition and Computing tuition in Singapore with lifetime mentorship. Specialised JC H2 Physics and Computing classes with capped class sizes (max 6:1). Top-tier A-Level tuition from Raffles Institution & NUS Computing educator.',
+      publisher: {
+        '@type': 'Organization',
+        name: 'Solitaire Education',
+        logo: 'https://solitaire-education.vercel.app/solitaire-education-logo/web-app-manifest-512x512.png',
+      },
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: 'https://solitaire-education.vercel.app/#contact',
+        'query-input': 'required name=search_term_string',
+      },
+    },
+  ];
 
   return (
     <html lang="en" className="scroll-smooth">
