@@ -1,6 +1,6 @@
 # 💎 Solitaire Education Website
 
-A professional, SEO-optimized website for Solitaire Education - Singapore's premier JC H2 Physics and Computing tuition center.
+A professional, SEO-optimized website for Solitaire Education, a specialist JC H2 Physics tuition service in Singapore.
 
 ## 🚀 Features
 

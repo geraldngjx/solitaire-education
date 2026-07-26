@@ -315,8 +315,7 @@ const HeroSection = () => {
 
             {/* Premium Description */}
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-xl font-light scroll-fade-up stagger-delay-200">
-              Elite <span className="font-bold text-blue-700">H2 Physics</span> and{' '}
-              <span className="font-bold text-indigo-700">H2 Computing</span> tuition backed by our{' '}
+              Elite <span className="font-bold text-blue-700">H2 Physics</span> tuition backed by our{' '}
               <span className="font-bold text-purple-700">Lifetime Mentorship</span> guarantee
             </p>
 
@@ -698,20 +697,6 @@ const SubjectsSection = () => {
       ],
       gradient: 'from-blue-500 to-indigo-600',
     },
-    {
-      id: 'computing',
-      title: 'H2 Computing',
-      subtitle: 'Code the Future',
-      icon: '💻',
-      features: [
-        'Algorithmic Thinking & Design',
-        'Practical Coding Skills (Python)',
-        'Data Structures & Optimization',
-        'Project-Based Learning',
-        'Computational Problem Solving',
-      ],
-      gradient: 'from-purple-500 to-pink-600',
-    },
   ];
 
   return (
@@ -739,23 +724,23 @@ const SubjectsSection = () => {
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
               <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
             </svg>
-            Our Premium Programs
+            Our H2 Physics Program
           </div>
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-black mb-8 tracking-tight scroll-fade-up stagger-delay-100">
             <span className="block text-gray-900">
-              Specialized
+              Specialized H2 Physics
             </span>
             <span className="block bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent mt-2">
-              Subject Mastery
+              Mastery
             </span>
           </h2>
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto font-light leading-relaxed scroll-fade-up stagger-delay-200">
-            Expert-led programs meticulously designed to transform your understanding and achieve A-Level excellence
+            A focused program designed to deepen your understanding and help you achieve A-Level excellence
           </p>
         </div>
 
         {/* Ultra Premium Subject Cards */}
-        <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
+        <div className="max-w-3xl mx-auto space-y-10">
           {/* H2 Physics - Ultra Premium */}
           <div className="group relative bg-white/80 backdrop-blur-xl rounded-3xl sm:rounded-4xl overflow-hidden shadow-premium-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-white/60 scroll-rotate">
             {/* Premium Gradient Header */}
@@ -817,7 +802,7 @@ const SubjectsSection = () => {
             </div>
           </div>
 
-          {/* H2 Computing - Ultra Premium */}
+          {/* H2 Physics exam preparation */}
           <div className="group relative bg-white/80 backdrop-blur-xl rounded-3xl sm:rounded-4xl overflow-hidden shadow-premium-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-white/60 scroll-rotate stagger-delay-200">
             {/* Premium Gradient Header */}
             <div className="relative h-48 sm:h-60 lg:h-72 bg-gradient-to-br from-purple-600 via-pink-600 to-rose-700 p-6 sm:p-8 lg:p-10 overflow-hidden">
@@ -837,12 +822,12 @@ const SubjectsSection = () => {
                     High Demand
                   </div>
                   <div className="inline-flex items-center justify-center w-20 h-20 rounded-3xl bg-white/20 backdrop-blur-sm mb-6 group-hover:scale-110 group-hover:-rotate-12 transition-all duration-500">
-                    <span className="text-6xl">💻</span>
+                    <span className="text-6xl">🎯</span>
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-5xl font-black text-white mb-3 leading-tight">H2 Computing</h3>
-                  <p className="text-purple-50 text-xl font-light">Code the Future</p>
+                  <h3 className="text-5xl font-black text-white mb-3 leading-tight">Exam Mastery</h3>
+                  <p className="text-purple-50 text-xl font-light">Perform with confidence</p>
                 </div>
               </div>
             </div>
@@ -850,7 +835,13 @@ const SubjectsSection = () => {
             {/* Premium Content */}
             <div className="p-10">
               <div className="space-y-5 mb-10">
-                {subjects[1].features.map((feature, idx) => (
+                {[
+                  'Topic-by-Topic Diagnostic Practice',
+                  'A-Level Question Analysis',
+                  'Precise Answering Techniques',
+                  'Timed Paper Practice',
+                  'Personalized Feedback & Revision Plans',
+                ].map((feature, idx) => (
                   <div key={idx} className="flex items-start gap-4 group/item">
                     <div className="mt-0.5 w-8 h-8 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center flex-shrink-0 group-hover/item:scale-110 group-hover/item:-rotate-6 transition-all shadow-lg">
                       <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -867,7 +858,7 @@ const SubjectsSection = () => {
                 className="group/btn relative w-full bg-gradient-to-r from-purple-600 via-pink-600 to-rose-600 text-white font-bold text-base sm:text-lg py-4 sm:py-5 rounded-xl sm:rounded-2xl shadow-premium-lg hover:shadow-2xl transform hover:scale-[1.02] active:scale-95 transition-all duration-300 overflow-hidden"
               >
                 <span className="relative z-10 flex items-center justify-center gap-2">
-                  Enroll in H2 Computing
+                  Prepare for H2 Physics
                   <svg className="w-5 h-5 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
@@ -972,8 +963,8 @@ const TutorCredentialsSection = () => {
                 <div className="absolute inset-0 transform group-hover:scale-110 transition-transform duration-300"></div>
                 <div className="relative w-full h-full p-2">
                   <Image
-                    src="/nus-computing-logo.png"
-                    alt="National University of Singapore"
+                    src="/solitaire-education-logo.png"
+                    alt="Solitaire Education"
                     fill
                     className="object-contain p-2"
                   />
@@ -983,10 +974,10 @@ const TutorCredentialsSection = () => {
 
             {/* Name and Title */}
             <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">Gerald Ng</h3>
-            <p className="text-base sm:text-lg text-gray-600 mb-3 sm:mb-4">Physics & Computing Tutor</p>
+            <p className="text-base sm:text-lg text-gray-600 mb-3 sm:mb-4">H2 Physics Tutor</p>
             <div className="flex flex-wrap justify-center gap-1.5 sm:gap-2">
               <span className="px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-sm font-semibold text-blue-700">Raffles Institution</span>
-              <span className="px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200 text-sm font-semibold text-indigo-700">NUS Computer Science</span>
+              <span className="px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200 text-sm font-semibold text-indigo-700">H2 Physics Specialist</span>
               <span className="px-3 py-1 rounded-full bg-purple-50 border border-purple-200 text-sm font-semibold text-purple-700">Merit Scholar</span>
             </div>
           </div>
@@ -1079,7 +1070,7 @@ const TutorCredentialsSection = () => {
                   <div className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 rounded-full bg-indigo-600 flex-shrink-0"></div>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                      <span className="font-bold text-indigo-700">NUS Computer Science</span>
+                      <span className="font-bold text-indigo-700">H2 Physics Specialist</span>
                     </p>
                   </div>
                   <div className="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-blue-100">
@@ -1203,7 +1194,7 @@ const SuccessStoriesSection = () => {
     {
       name: 'Matthew',
       subject: 'JC Physics',
-      achievement: 'NUS Computer Science',
+      achievement: 'A for A-Level Physics',
       quote: 'I got A in phy! thank you for your patient guidance bro!',
     },
     {
@@ -1386,7 +1377,7 @@ const SuccessStoriesSection = () => {
 const ContactForm = () => {
   const [formData, setFormData] = useState<FormData>({
     studentName: '',
-    subjectInterest: '',
+    subjectInterest: 'H2 Physics',
     parentEmail: '',
     mobile: '',
   });
@@ -1433,7 +1424,7 @@ const ContactForm = () => {
         });
         setFormData({
           studentName: '',
-          subjectInterest: '',
+          subjectInterest: 'H2 Physics',
           parentEmail: '',
           mobile: '',
         });
@@ -1527,10 +1518,7 @@ const ContactForm = () => {
                     required
                     className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all duration-300 hover:border-blue-300"
                   >
-                    <option value="">Select a subject</option>
                     <option value="H2 Physics">H2 Physics</option>
-                    <option value="H2 Computing">H2 Computing</option>
-                    <option value="Both Subjects">Both Subjects</option>
                   </select>
                 </div>
 

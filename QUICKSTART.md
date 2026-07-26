@@ -119,7 +119,7 @@ All content is in `app/page.tsx`:
 
 - **Hero Section** (line ~130): Mission statement, CTA
 - **Edge Section** (line ~200): Differentiating factors
-- **Subjects** (line ~280): H2 Physics & Computing details
+- **Subject** (line ~280): H2 Physics program details
 - **Success Stories** (line ~370): Student testimonials
 - **Contact Form** (line ~430): Form fields
 

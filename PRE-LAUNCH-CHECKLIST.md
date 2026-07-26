@@ -113,7 +113,6 @@
 
 - [ ] **Search Rankings**
   - Monitoring "H2 Physics tuition Singapore"
-  - Monitoring "H2 Computing tuition Singapore"
   - Site appears in Google search (site:your-domain.com)
 
 - [ ] **Social Media**
@@ -128,7 +127,7 @@
 ### Required Content (Already Included)
 
 - [x] Hero section with mission statement
-- [x] Subject showcases (H2 Physics, H2 Computing)
+- [x] H2 Physics program showcase
 - [x] Differentiating factors (Solitaire Edge)
 - [x] Student testimonials
 - [x] Contact form
