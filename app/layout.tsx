@@ -10,8 +10,9 @@ const lato = Lato({
 })
 
 export const metadata: Metadata = {
-  title: 'H2 Physics Tuition Singapore | Solitaire Education',
-  description: 'Expert JC H2 Physics tuition in Singapore with lifetime mentorship, capped class sizes (max 6:1), deep conceptual teaching, and focused A-Level exam preparation.',
+  metadataBase: new URL('https://solitaire-education.vercel.app'),
+  title: 'O-Level, IP & JC Physics Tuition Singapore | Solitaire Education',
+  description: 'Expert Secondary School O-Level and IP Physics tuition, plus JC H2 A-Level Physics tuition in Singapore. Build strong concepts, sharpen exam skills, and learn in capped classes with lifetime mentorship.',
   keywords: [
     'Physics tuition',
     'Physics tuition Singapore',
@@ -21,6 +22,11 @@ export const metadata: Metadata = {
     'JC Physics tuition',
     'JC tuition Singapore',
     'A-Level Physics tuition',
+    'O-Level Physics tuition',
+    'O-Level Physics tuition Singapore',
+    'IP Physics tuition',
+    'Secondary School Physics tuition',
+    'Secondary Physics tuition Singapore',
     'Physics mentorship Singapore',
     'STEM tuition Singapore',
     'Raffles tuition',
@@ -45,8 +51,8 @@ export const metadata: Metadata = {
     title: 'Solitaire Education',
   },
   openGraph: {
-    title: 'H2 Physics Tuition Singapore | Solitaire Education',
-    description: 'Expert JC H2 Physics tuition in Singapore with lifetime mentorship, capped class sizes (max 6:1), and focused A-Level exam preparation.',
+    title: 'O-Level, IP & JC Physics Tuition Singapore | Solitaire Education',
+    description: 'Expert Secondary School O-Level and IP Physics tuition, plus JC H2 A-Level Physics tuition in Singapore, with capped classes and lifetime mentorship.',
     url: 'https://solitaire-education.vercel.app',
     siteName: 'Solitaire Education',
     locale: 'en_SG',
@@ -88,19 +94,25 @@ export default function RootLayout({
       name: 'Solitaire Education',
       url: 'https://solitaire-education.vercel.app',
       logo: 'https://solitaire-education.vercel.app/solitaire-education-logo/web-app-manifest-512x512.png',
-      description: 'Expert JC H2 Physics tuition in Singapore with lifetime mentorship, deep conceptual teaching, and focused A-Level preparation.',
+      description: 'Expert Secondary School O-Level and IP Physics tuition, plus JC H2 A-Level Physics tuition in Singapore with lifetime mentorship.',
       address: {
         '@type': 'PostalAddress',
         addressCountry: 'SG',
         addressLocality: 'Singapore',
       },
       areaServed: 'Singapore',
-      serviceType: ['H2 Physics Tuition', 'Physics Mentorship', 'A-Level Physics Preparation'],
+      serviceType: ['O-Level Physics Tuition', 'IP Physics Tuition', 'H2 Physics Tuition', 'Physics Mentorship'],
       offers: [
         {
           '@type': 'Offer',
-          name: 'JC H2 Physics Tuition',
+          name: 'JC A-Level H2 Physics Tuition',
           description: 'Expert JC H2 Physics tuition with personalized mentorship and small class sizes (max 6:1)',
+          category: 'Physics Tuition',
+        },
+        {
+          '@type': 'Offer',
+          name: 'Secondary School O-Level and IP Physics Tuition',
+          description: 'Concept-focused Secondary School Physics tuition for O-Level and IP students with personalized guidance and exam preparation',
           category: 'Physics Tuition',
         },
       ],
@@ -115,7 +127,7 @@ export default function RootLayout({
       '@type': 'WebSite',
       name: 'Solitaire Education',
       url: 'https://solitaire-education.vercel.app',
-      description: 'Expert JC H2 Physics tuition in Singapore with lifetime mentorship, capped class sizes (max 6:1), and focused A-Level exam preparation.',
+      description: 'Expert Secondary School O-Level and IP Physics tuition, plus JC H2 A-Level Physics tuition in Singapore, with capped classes and lifetime mentorship.',
       publisher: {
         '@type': 'Organization',
         name: 'Solitaire Education',

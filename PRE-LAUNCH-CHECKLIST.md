@@ -113,6 +113,8 @@
 
 - [ ] **Search Rankings**
   - Monitoring "H2 Physics tuition Singapore"
+  - Monitoring "O-Level Physics tuition Singapore"
+  - Monitoring "IP Physics tuition Singapore"
   - Site appears in Google search (site:your-domain.com)
 
 - [ ] **Social Media**
@@ -127,7 +129,7 @@
 ### Required Content (Already Included)
 
 - [x] Hero section with mission statement
-- [x] H2 Physics program showcase
+- [x] Secondary School (O-Level/IP) and JC (A-Level) Physics program showcases
 - [x] Differentiating factors (Solitaire Edge)
 - [x] Student testimonials
 - [x] Contact form
